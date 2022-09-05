@@ -1,0 +1,18 @@
+Deployed on Heroku App :- https://still-forest-14101.herokuapp.com/ you can access the same 
+Used Tools:- MongoDB,ExpressJS,NodeJS 
+
+Steps:
+Publish your Code to Github and Connect to Heroku:-
+1. git push heroku master
+2. heroku ps:scale web=1 --> For Starting an Instance on server
+3. heroku open
+
+Important Points:
+Do Change the Main File to your target js File for Starting the Web
+
+"scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  }
+
+
